@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/mundo.jpg" alt="Logotipo de Noticias sin más" width="50" height="50">
+        <h1 id="encabezado">Página de conctacto</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="sociedad.html">Sociedad</a>
+            <a href="deportes.html">Deportes</a>
+            <a href="economia.html">Economía</a>
+            <a href="ciencia.html">Ciencia y tecnología</a>
+        </nav>
+    </header>
+    <section>
+        <form>
+            <label for="nombre">Nombre completo* </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Introduzca su nombre" required>
+            <br>
+            <label for="correo">E-mail de contacto* </label>
+            <input type="email" name="correo" id="correo" placeholder="Introduzca su e-mail" required>
+            <br>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" name="telefono" id="telefono" placeholder="123456789">
+            <br>
+            <fieldset>
+                <legend>Tipo de mensaje* </legend>
+                <label for="queja">Queja</label>
+                <input type="radio" name="tipom" id="queja" value="1" required>
+                <label for="sugerencia">Sugerencia</label>
+                <input type="radio" name="tipom" id="sugerencia" value="2" required>
+                <label for="mensaje">Mensaje</label>
+                <input type="radio" name="tipom" id="mensaje" value="3" required>
+            </fieldset>
+            <br><br>
+            <label for="mensaje">Queja, sugerencia o mensaje general* </label>
+            <textarea name="mensaje" id="mensaje" cols="70" rows="10" required></textarea>
+            <br>
+            <label for="autorizo">Autorizo a la posible publicación del mensaje </label>
+            <input type="checkbox" name="autorizo" id="autorizo">
+            <br><br>
+            <button type="reset">Cancelar</button>
+            <button type="submit">Enviar</button>
+            <br><br>
+        </form>
+    </section>
+    <footer>
+        <a href="index.html#encabezado">Página principal</a>      
+    </footer> 
+</body>
+</html>

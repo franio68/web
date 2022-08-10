@@ -1,0 +1,71 @@
+/* 
+=== Códigos de colores ===
+#694825 
+#ECC599
+#E8A151
+#695744
+#B57D3F
+*/
+
+/* Selectores de elementos */
+p {
+  color: rgb(129, 36, 195)
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  font-size: 18;
+  font-weight: bold;
+}
+
+/* Selector de ID */
+#articulo {
+  background-color: aquamarine
+}
+
+/* Selector de clase (class) */
+.articulo {
+  background-color: darkkhaki
+}
+
+.articulo {
+  background-color: #ECC599
+}
+
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Selector de clase en span */
+.varios {
+  color: rgb(56, 36, 35);
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline
+}
+
+/* Selector descendente */
+div p {
+  font-style: italic;
+}
+
+.articulo h3 {
+  font-weight: 900;
+}
+
+/* #formulario {
+  color: rgb(210, 105, 30);
+} */
+
+/* Selector de atributos */
+input[type="text"] {
+  color: rgb(210, 105, 30);
+}
